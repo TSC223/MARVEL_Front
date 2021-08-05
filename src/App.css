@@ -1,0 +1,47 @@
+body {
+  font-family: "Arial";
+}
+body a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+.section_personnages_affichage {
+  margin: 1% 8%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.section_personnages_affichage a {
+  margin: auto;
+  width: 18%;
+  position: relative;
+  margin: 3% 0.5%;
+}
+.card_babeContain {
+  min-height: 220px;
+}
+.marvel_img {
+  width: 97%;
+  margin: auto;
+  height: 210px;
+  border: 3px groove black;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 8px 8px 0px;
+}
+.marvel_descript {
+  font-size: 12.5px;
+  height: 45px;
+  text-align: center;
+  background: #efefef;
+  padding: 3%;
+}
+
+
+
+echo "# MArveL_Front" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/TSC223/MArveL_Front.git
+git push -u origin main
